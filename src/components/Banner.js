@@ -54,7 +54,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-             <span className="tagline">Bem vindo ao meu portifólio</span>
+             <span className="tagline">Bem vindo ao meu portifólio</span>  
              <h1>{`Eae, eu sou Alan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Desenvolvedor Web", "Front End" ]'><span className="wrap">{text}</span></span></h1>
                <p>Desenvolvedor Front-end Especialista em React, VTEX IO, JavaScript e TypeScript. Sou um entusiasta da tecnologia e desenvolvedor front-end apaixonado por criar experiências digitais excepcionais. Minhas habilidades abrangentes em React, VTEX IO, JavaScript e TypeScript têm sido fundamentais para o sucesso de diversos projetos nos quais participei.</p>             
               </div>}
