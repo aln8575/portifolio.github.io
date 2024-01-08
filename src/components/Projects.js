@@ -23,7 +23,7 @@ export const Projects = () => {
     },
     {
       title: "Maeztra",
-      description: "Desenvolvimento de Lp para os clientes",
+      description: "Desenvolvimento de Lp para clientes",
       imgUrl: maeztra,
     }
   ];
