@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import pagueMenos from "../assets/img/pague-menos-home.png";
 import pagueMenos2 from "../assets/img/pague-menos.png";
 import maeztra from "../assets/img/maeztra.jpg";
+import grarepresentacao from "../assets/img/grarepresentacao.jpg";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -25,6 +26,11 @@ export const Projects = () => {
       title: "Maeztra",
       description: "Desenvolvimento de Lp para clientes",
       imgUrl: maeztra,
+    },
+    {
+      title: "GRA representações",
+      description: "Desenvolvimento de LP",
+      imgUrl: grarepresentacao,
     }
   ];
 
@@ -43,12 +49,6 @@ export const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="first">Projetos</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Projeto 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Projeto 3</Nav.Link>
-                    </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -65,12 +65,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p></p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Area de projetos futuros</p>
-                    </Tab.Pane>
+
                   </Tab.Content>
                 </Tab.Container>
               </div>}
